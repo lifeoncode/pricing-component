@@ -17,12 +17,6 @@
     --gray-blue: hsl(233, 13%, 49%);
 }
 
-img{
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 
 
 body{
@@ -33,6 +27,21 @@ body{
     text-align: center;
     position: relative;
 }
+
+
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button:focus, 
+input:focus{
+outline: none;
+}
+
+
 
 .top_bg{
     position: absolute;
